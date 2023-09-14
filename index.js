@@ -116,10 +116,10 @@ app.on('ready', () => {
       presenceDetails = 'Uploading Files';
     } else if (url.startsWith('https://linkdl')) {
       presenceDetails = 'On LinkDL';
-    } else if (url.startsWith('https://www.youtube.com')) {
-      presenceDetails = 'Watching Youtube';
     } else if (url.startsWith('https://www.dropbox.com')) {
       presenceDetails = 'Viewing Uploads';
+	} else if (currentPage === 'changelog') {
+      presenceDetails = 'Viewing Changelog';
     } else {
       // Handle other pages or set a default presence
       presenceDetails = 'Browsing the App';
