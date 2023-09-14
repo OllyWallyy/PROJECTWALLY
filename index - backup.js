@@ -1,4 +1,4 @@
-const { app, BrowserWindow, Tray, Menu, globalShortcut, dialog, autoUpdater } = require('electron');
+const { app, BrowserWindow, Tray, Menu, globalShortcut } = require('electron');
 const Store = require('electron-store');
 const DiscordRPC = require('discord-rpc');
 const store = new Store();
@@ -10,9 +10,6 @@ const clientId = '1151896802660991048';
 let mainWindow;
 let tray;
 let rpc;
-
-// Update feed URL for manual updates
-const updateFeedURL = 'https://github.com/OllyWallyy/PROJECTWALLY/releases/latest';
 
 app.on('ready', () => {
   // Initialize Discord RPC
@@ -104,24 +101,24 @@ app.on('ready', () => {
 
   // Listen for page navigation events and update presence
   mainWindow.webContents.on('did-navigate-in-page', (_, url) => {
-    const currentPage = mainWindow.webContents.executeJavaScript('document.body.getAttribute("data-page")');
-    console.log(`Navigated to: ${url}`);
+	const currentPage = mainWindow.webContents.executeJavaScript('document.body.getAttribute("data-page")');
+	console.log(`Navigated to: ${url}`);
     let presenceDetails;
 
-    if (currentPage === 'index') {
+    if (currentPage==='index') {
       presenceDetails = 'In the Menu';
     } else if (url.startsWith('https://anix.to/')) {
       presenceDetails = 'Watching Anime';
-    } else if (currentPage === 'fileupload') {
+    } else if (currentPage==='fileupload') {
       presenceDetails = 'Uploading Files';
     } else if (url.startsWith('https://linkdl')) {
       presenceDetails = 'On LinkDL';
-    } else if (url.startsWith('https://www.youtube.com')) {
+	} else if (url.startsWith('https://www.youtube.com')) {
       presenceDetails = 'Watching Youtube';
-    } else if (url.startsWith('https://www.dropbox.com')) {
-      presenceDetails = 'Viewing Uploads';
-    } else if (url.startsWith('https://w2g.tv')) {
-      presenceDetails = 'Watching Together With Others';
+	} else if (url.startsWith('https://www.dropbox.com')) {
+		presenceDetails = 'Viewing Uploads'
+	} else if (url.startsWith('https://w2g.tv')) {
+		presenceDetails = 'Watching Together With Others'
     } else {
       // Handle other pages or set a default presence
       presenceDetails = 'Browsing the App';
@@ -143,78 +140,7 @@ app.on('ready', () => {
     console.log(`Updating Discord RPC presence: ${details}`);
   }
 
-  // Create a new window for the update popup
-  let updatePopup;
-
-  // Function to create and show the update popup
-  function createUpdatePopup() {
-    updatePopup = new BrowserWindow({
-      width: 400,
-      height: 200,
-      resizable: false,
-      show: false,
-      title: 'Update Available',
-    });
-
-    // Load the update popup HTML file
-    updatePopup.loadFile('update-popup.html');
-
-    // Show the update popup when ready
-    updatePopup.once('ready-to-show', () => {
-      updatePopup.show();
-    });
-
-    // Handle the update popup being closed
-    updatePopup.on('closed', () => {
-      updatePopup = null;
-    });
-  }
-
-  // Check for updates
-  autoUpdater.setFeedURL({ url: updateFeedURL });
-
-  autoUpdater.on('checking-for-update', () => {
-    console.log('Checking for updates...');
-    createUpdatePopup(); // Create and show the update popup
-  });
-
-  autoUpdater.on('update-available', (info) => {
-    console.log('Update available:', info);
-
-    // Send the update message to the popup window
-    if (updatePopup) {
-      updatePopup.webContents.send('update-message', 'A new version of the app is available. Do you want to update now?');
-    }
-  });
-
-  autoUpdater.on('update-not-available', () => {
-    console.log('No updates available.');
-
-    // Send a message to the popup window if no updates are available
-    if (updatePopup) {
-      updatePopup.webContents.send('update-message', 'No updates available.');
-    }
-  });
-
-  autoUpdater.on('error', (err) => {
-    console.error('Error checking for updates:', err);
-
-    // Send an error message to the popup window if there's an error
-    if (updatePopup) {
-      updatePopup.webContents.send('update-message', 'Error checking for updates. Please try again later.');
-    }
-  });
-
-  autoUpdater.on('download-progress', (progressObj) => {
-    console.log(`Download speed: ${progressObj.bytesPerSecond} - Downloaded ${progressObj.percent}% (${progressObj.transferred}/${progressObj.total}) bytes`);
-  });
-
-  autoUpdater.on('update-downloaded', () => {
-    // Send a message to the popup window when the update is downloaded
-    if (updatePopup) {
-      updatePopup.webContents.send('update-message', 'The update has been downloaded. Do you want to install it now?');
-    }
-  });
+  // ... The rest of your existing code ...
 });
 
 // Other app event handlers and code

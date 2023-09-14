@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Update Available</title>
+</head>
+<body>
+  <h2>A new version of the app is available.</h2>
+  <p>Do you want to update now?</p>
+  <button id="yesButton">Yes</button>
+  <button id="noButton">No</button>
+
+  <script>
+    const yesButton = document.getElementById('yesButton');
+    const noButton = document.getElementById('noButton');
+
+    yesButton.addEventListener('click', () => {
+      window.ipcRenderer.send('update-confirmed', true);
+      window.close();
+    });
+
+    noButton.addEventListener('click', () => {
+      window.ipcRenderer.send('update-confirmed', false);
+      window.close();
+    });
+  </script>
+</body>
+</html>
