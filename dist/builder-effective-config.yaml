@@ -1,0 +1,14 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.wallyapp
+productName: PROJECTWALLY
+win:
+  target: nsis
+  icon: logo.ico
+publish:
+  - provider: github
+    owner: OllyWallyy
+    repo: PROJECTWALLY
+files: []
+electronVersion: 26.2.1
