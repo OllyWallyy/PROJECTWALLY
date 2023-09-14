@@ -45,7 +45,7 @@ PROJECT W.A.L.L.Y will be removed from your computer, and all associated files a
 
 
 ## Development
-If you're interested in contributing to PROJECT W.A.L.L.Y or exploring its source code, you can find the repository on GitHub.
+If you're interested in contributing to PROJECT W.A.L.L.Y or exploring its source code, you can find the repository on GitHub or feel free to reach out to me.
 
 ## Issues and Feedback
 If you encounter any issues or have suggestions for improvements, please feel free to open an issue on the [GitHub repository](https://github.com/OllyWallyy/PROJECTWALLY/issues).
