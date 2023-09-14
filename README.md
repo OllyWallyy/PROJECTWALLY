@@ -25,8 +25,8 @@ Here are some of the current projects integrated into PROJECT W.A.L.L.Y:
    - **Description**: AniWALLY is a feature in progress that is designed for anime enthusiasts. It aims to provide a dedicated area for streaming anime content, making it convenient for users to access and enjoy their favorite shows.
    - **Status**: Work in progress.
 
-## Getting Started
-### Installation
+# Getting Started
+## Installation
 1. Download the latest version of PROJECT W.A.L.L.Y from the [Releases](https://github.com/OllyWallyy/PROJECTWALLY/releases) section.
 2. Install the application on your computer.
 3. Launch the app from your desktop or start menu.
