@@ -1,0 +1,17 @@
+/* Make the title bar transparent */
+.title-bar {
+  background: transparent;
+  -webkit-app-region: drag; /* Allow users to drag the window by clicking and dragging the title bar area */
+}
+
+/* Optionally, you can style the close, minimize, and maximize buttons */
+.title-bar .window-controls {
+  color: white;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+/* Remove the default title text */
+.title-bar .title {
+  display: none;
+}

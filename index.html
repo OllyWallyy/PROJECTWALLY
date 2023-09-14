@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Menu | W.A.L.L.Y</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body data-page="index">
+  <div id="terminal-window">
+    <span id="cursor"></span>
+    <p>
+      <span class="animate">W . A . L . L . Y (TM) TERMLINK MENU</span>
+    </p>
+    <p>
+      <span class="animate">LOADING MENU.PHP</span>
+    </p>
+    <p>
+      <span class="animate">>...</span><span class="animate">OK</span>
+      <br>
+      <span class="animate">></span><span class="animate">MENU:</span>
+      <br>
+      <span class="animate">></span><span class="animate">LinkDL</span>
+      <br>
+      <span class="animate">></span><span class="animate">Test Site</span>
+      <br>
+	  <span class="animate">></span><span class="animate">Watch Anime</span>
+	  <br>
+	  <span class="animate">></span><span class="animate">Upload Files Anonymously</span>
+    </p>
+    <p>
+      <span class="animate">></span><input autofocus type="text" id="inputcmd" placeholder="">
+    </p>
+    <p><span id="output"></span></p>
+    <div id="button-container" class="">
+      <a href="https://linkdlwally.ollywallyy.repl.co/">LinkDL</a>
+      <a href="https://anix.to/home" >AniWALLY</a>
+	  <a href="https://Youtube.com/">Youtube</a>
+	  <a href="fileupload.html">UploadVF</a>
+	  <a href="https://w2g.tv/en/" target="_blank">Watch Together</a>
+    </div>
+
+
+  </div>
+  <div class="scanlines"></div>
+
+  <script src="welcomescript.js"></script>
+
+</body>
+</html>
+
+<style>
+  #button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 200px;
+    background-color: transparent;
+    z-index: 9999;
+  }
+
+  #button-container.hide {
+    display: none;
+  }
+
+  #button-container a {
+    margin-bottom: 10px;
+    padding: 7px;
+    width: 200px;
+    font-size: 16px;
+    background-color: black;
+    border: solid;
+    border-radius: 1px;
+    cursor: pointer;
+    color: #00ff00;
+    font-family: "andale mono", "monotype.com", monaco, "courier new", courier, monospace;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;  /* Align the text horizontally and vertically */
+    text-decoration: none;
+  }
+
+
+  #button-container a:hover {
+    opacity:1;
+    box-shadow: 0 0 5px 1px #00ff00;
+  }
+
+  @media (max-width: 600px) {
+    #button-container {
+      width: 80%;
+    }
+
+    #button-container a {
+      width: 100%;
+      font-size: 18px;
+      padding: 10px;
+    }
+  }
+</style>
