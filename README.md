@@ -9,6 +9,22 @@ PROJECT W.A.L.L.Y is a personal project aimed at consolidating all of my web-bas
 4. **Tray Icon**: Provides a system tray icon for quick access and streamlined actions.
 5. **Auto Updates**: Keep your app up-to-date automatically with the latest features and improvements.
 
+## Current Projects within PROJECT W.A.L.L.Y
+
+Here are some of the current projects integrated into PROJECT W.A.L.L.Y:
+
+1. **LinkDL** (Link Downloader):
+   - **Description**: LinkDL is a tool for downloading links from various websites. It simplifies the process of fetching content from different sources and provides a centralized interface for managing your downloads.
+   - **Status**: Active and functional.
+
+2. **UploadVF** (Anonymous File Uploading Area):
+   - **Description**: UploadVF is a feature in progress that aims to provide a secure and anonymous file uploading service. Users will be able to upload files with ease while maintaining their privacy.
+   - **Status**: Work in progress.
+
+3. **AniWALLY** (Anime Streaming Area):
+   - **Description**: AniWALLY is a feature in progress that is designed for anime enthusiasts. It aims to provide a dedicated area for streaming anime content, making it convenient for users to access and enjoy their favorite shows.
+   - **Status**: Work in progress.
+
 ## Getting Started
 ### Installation
 1. Download the latest version of PROJECT W.A.L.L.Y from the [Releases](https://github.com/OllyWallyy/PROJECTWALLY/releases) section.
