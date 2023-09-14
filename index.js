@@ -120,8 +120,6 @@ app.on('ready', () => {
       presenceDetails = 'Watching Youtube';
     } else if (url.startsWith('https://www.dropbox.com')) {
       presenceDetails = 'Viewing Uploads';
-    } else if (url.startsWith('https://w2g.tv')) {
-      presenceDetails = 'Watching Together With Others';
     } else {
       // Handle other pages or set a default presence
       presenceDetails = 'Browsing the App';

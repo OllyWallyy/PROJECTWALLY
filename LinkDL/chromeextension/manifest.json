@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube Downloader",
+  "version": "1.0",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/watch?v=*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "browser_action": {
+    "default_title": "Download Video"
+  }
+}

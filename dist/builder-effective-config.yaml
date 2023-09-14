@@ -1,14 +1,3 @@
-directories:
-  output: dist
-  buildResources: build
-appId: com.wallyapp
-productName: PROJECTWALLY
-win:
-  target: nsis
-  icon: logo.ico
-publish:
-  - provider: github
-    owner: OllyWallyy
-    repo: PROJECTWALLY
-files: []
-electronVersion: 26.2.1
+version https://git-lfs.github.com/spec/v1
+oid sha256:02909161710362f4cc977e4cdf375e5f836fef81fc04041bae38e188ec883f7d
+size 244

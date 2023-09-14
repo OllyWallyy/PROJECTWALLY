@@ -1,0 +1,6 @@
+# Ignore large files and directories
+dist/PROJECTWALLY Setup 0.0.1.exe
+dist/PROJECTWALLY Setup 0.0.2.exe
+dist/PROJECTWALLY Setup 0.0.3.exe
+node_modules/electron/dist/electron.exe
+dist/win-unpacked/PROJECTWALLY.exe

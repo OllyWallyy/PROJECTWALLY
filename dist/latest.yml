@@ -1,8 +1,3 @@
-version: 0.0.5
-files:
-  - url: PROJECTWALLY-Setup-0.0.5.exe
-    sha512: rLidmIUifBZz1CNdanvwQU+E5dSIHXayuUxoYp6nP1uoamPY0oPxe9HpnA2JCMc7JzP1r5qEcO0nIEI5V3Zi1Q==
-    size: 72930068
-path: PROJECTWALLY-Setup-0.0.5.exe
-sha512: rLidmIUifBZz1CNdanvwQU+E5dSIHXayuUxoYp6nP1uoamPY0oPxe9HpnA2JCMc7JzP1r5qEcO0nIEI5V3Zi1Q==
-releaseDate: '2023-09-14T19:31:06.828Z'
+version https://git-lfs.github.com/spec/v1
+oid sha256:5b68dc7f48ba781a81e25e6b87f4909539d03c63c6b0dc23dff274a55fee1bc1
+size 352
