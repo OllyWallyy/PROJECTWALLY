@@ -1,7 +1,7 @@
 **PROJECT W.A.L.L.Y**
 
 
-PROJECT WALLY is a personal project aimed at bringing all of my web-based projects into one unified desktop application. 
+PROJECT W.A.L.L.Y is a personal project aimed at bringing all of my web-based projects into one unified desktop application. 
 
 **Features**
 1. Centralized Access: Access all my web projects and applications from one place.
@@ -12,15 +12,19 @@ PROJECT WALLY is a personal project aimed at bringing all of my web-based projec
 
 **Getting Started**
 
-Installation: Download and install the latest version of PROJECT WALLY from the Releases section.
-Launch the App: After installation, launch the app from your desktop or start menu.
+Installation: 
+
+Download and install the latest version of PROJECT WALLY from the Releases section. After installation, launch the app from your desktop or start menu.
 
 **Development**
+
 If you're interested in contributing to PROJECT WALLY or exploring its source code, you can find the repository on GitHub: https://github.com/OllyWallyy/PROJECTWALLY
 
 **Issues and Feedback**
+
 If you encounter any issues or have suggestions for improvements, please feel free to open an issue on the GitHub repository.
 
 **License**
+
 This project is licensed under the GNU License.
 
