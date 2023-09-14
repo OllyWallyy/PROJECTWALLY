@@ -21,8 +21,8 @@ To uninstall PROJECT W.A.L.L.Y, follow these steps:
 
 1. Right-click on the desktop shortcut for PROJECT W.A.L.L.Y.
 2. Select "Open file location" from the context menu. This will open the folder where PROJECT W.A.L.L.Y is installed.
-3. In the installation folder, you should find an "Uninstall.exe" or a similar uninstallation file.
-4. Double-click the "Uninstall.exe" file to initiate the uninstallation process.
+3. In the installation folder, you should find an "Uninstall PROJECTWALLY.exe" or a similar uninstallation file.
+4. Double-click the "Uninstall PROJECTWALLY.exe" file to initiate the uninstallation process.
 5. Follow the on-screen instructions to complete the uninstallation.
 
 PROJECT W.A.L.L.Y will be removed from your computer, and all associated files and shortcuts will be deleted.
