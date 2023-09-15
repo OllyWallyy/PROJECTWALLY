@@ -1,5 +1,7 @@
 # PROJECT W.A.L.L.Y
 
+[Features](#features) | [Current Projects within PROJECT W.A.L.L.Y](#current-projects-within-project-wally) | [Screenshots](#screenshots) | [Getting Started](#getting-started) | [Installation](#installation) | [Uninstallation](#uninstallation) | [Development](#development) | [Issues and Feedback](#issues-and-feedback) | [Virus Total Scan](#virus-total-scan) | [License](#license)
+
 PROJECT W.A.L.L.Y is a personal project aimed at consolidating all of my web-based projects into a unified desktop application.
 
 ## Features
