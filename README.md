@@ -25,6 +25,10 @@ Here are some of the current projects integrated into PROJECT W.A.L.L.Y:
    - **Description**: AniWALLY is a feature in progress that is designed for anime enthusiasts. It aims to provide a dedicated area for streaming anime content, making it convenient for users to access and enjoy their favorite shows.
    - **Status**: Work in progress.
 
+4. **WALLYConnect** (Online Chatroom):
+   - **Description**: WALLYConnect is a new addition to the PROJECT W.A.L.L.Y family. It serves as an online chatroom, allowing users to connect and communicate with others in real-time.
+   - **Status**: Work in progress.
+
 # Getting Started
 ## Installation
 1. Download the latest version of PROJECT W.A.L.L.Y from the [Releases](https://github.com/OllyWallyy/PROJECTWALLY/releases) section.
