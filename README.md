@@ -29,6 +29,19 @@ Here are some of the current projects integrated into PROJECT W.A.L.L.Y:
    - **Description**: WALLYConnect is a new addition to the PROJECT W.A.L.L.Y family. It serves as an online chatroom, allowing users to connect and communicate with others in real-time.
    - **Status**: Active and functional.
 
+## Screenshots
+
+Here are some screenshots from PROJECT W.A.L.L.Y:
+
+1. **WALLYConnect**:
+   ![WALLYConnect](Screenshots/Connect.png)
+
+2. **LinkDL**:
+   ![LinkDL](Screenshots/LinkDL.png)
+
+3. **Menu**:
+   ![Menu](Screenshots/Menu.png)
+
 # Getting Started
 ## Installation
 1. Download the latest version of PROJECT W.A.L.L.Y from the [Releases](https://github.com/OllyWallyy/PROJECTWALLY/releases) section.

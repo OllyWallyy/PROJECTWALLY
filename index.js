@@ -117,6 +117,8 @@ app.on('ready', () => {
     } else if (url.startsWith('https://linkdl')) {
       presenceDetails = 'On LinkDL';
     } else if (url.startsWith('https://www.dropbox.com')) {
+      presenceDetails = 'Chatting With Others';
+    } else if (url.startsWith('https://wallywebsocket')) {
       presenceDetails = 'Viewing Uploads';
 	} else if (currentPage === 'changelog') {
       presenceDetails = 'Viewing Changelog';
