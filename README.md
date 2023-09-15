@@ -27,7 +27,7 @@ Here are some of the current projects integrated into PROJECT W.A.L.L.Y:
 
 4. **WALLYConnect** (Online Chatroom):
    - **Description**: WALLYConnect is a new addition to the PROJECT W.A.L.L.Y family. It serves as an online chatroom, allowing users to connect and communicate with others in real-time.
-   - **Status**: Work in progress.
+   - **Status**: Active and functional.
 
 # Getting Started
 ## Installation
